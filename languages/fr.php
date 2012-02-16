@@ -10,12 +10,12 @@
 	
 		/**
 		* Menu items and titles
-		**/
-	'locks:alt:public' => 'Accès publique',
-	'locks:alt:private' => 'Accès privé',
-	'locks:alt:logged' => 'Accès utilisateurs connectés',
-	'locks:alt:restricted' => 'Accès restreint',
-	
+			**/
+		'locks:alt:public' => 'Accès publique',
+		'locks:alt:private' => 'Accès privé',
+		'locks:alt:logged' => 'Accès utilisateurs connectés',
+		'locks:alt:restricted' => 'Accès restreint',
+		'locks:settings:label:size' => 'Taille des icones de cadenas'
 	);
 					
 	add_translation("fr",$french);

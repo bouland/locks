@@ -14,9 +14,7 @@ if($entity)
 	$size = get_plugin_setting('size', 'locks');
 	$href = $CONFIG->url . 'pg/access/edit/' . $entity->guid;
 	$src = $CONFIG->url . 'mod/locks/graphics/';
-	
-	echo '<div class="lock">';
-	
+
 	switch($entity->access_id)
 	{
 		case ACCESS_PRIVATE:

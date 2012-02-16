@@ -7,7 +7,6 @@
         <legend><?php echo elgg_echo('locks:settings:label');?></legend>
         
         <label for="params[size]"><?php echo elgg_echo('locks:settings:label:size');?></label><br/>
-        <div class="example"><?php echo elgg_echo('webinar:settings:help:serverURL');?></div>
         <input type="text" name="params[size]" value="<?php if (empty($plugin->size)) {echo '15';} else {echo $plugin->size;}?>"/><br/>
 
     </fieldset>

@@ -5,6 +5,7 @@ register_elgg_event_handler('init','system','locks_init');
 function locks_init()
 {
 	register_page_handler('access','locks_page_handler');
+	elgg_extend_view('css', 'locks/css');
 }
 function locks_page_handler($page)
 {

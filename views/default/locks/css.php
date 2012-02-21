@@ -2,7 +2,7 @@
 $size = get_plugin_setting('size', 'locks');
 $margin = $size / 2;
 ?>
-.search_listing_lock, .topic_lock{
+.search_listing_lock, .topic_lock, .blog_post_lock{
 	float:right;
 	margin-left:<?php echo $margin . 'em'; ?>
 }

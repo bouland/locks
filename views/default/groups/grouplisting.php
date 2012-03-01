@@ -18,10 +18,10 @@
 	$membership = $vars['entity']->membership;
 	if ($membership == ACCESS_PUBLIC) {
 		$lock_label = elgg_echo("groups:open");
-		$lock_icon = elgg_view('locks/green');
+		$lock_icon = elgg_view('icon/locks/green');
 	} else {
 		$lock_label = elgg_echo("groups:closed");
-		$lock_icon = elgg_view('locks/red');
+		$lock_icon = elgg_view('icon/locks/red');
 	}
 
 	//for admins display the feature or unfeature option

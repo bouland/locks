@@ -18,20 +18,20 @@ if($entity)
 	switch($entity->access_id)
 	{
 		case ACCESS_PRIVATE:
-			echo elgg_view('locks/red', array('href' 	=> $href));
+			echo elgg_view('icon/locks/red', array('href' 	=> $href));
 			break;
 		
 		case ACCESS_PUBLIC:
-			echo elgg_view('locks/green', array('href' 	=> $href));
+			echo elgg_view('icon/locks/green', array('href' 	=> $href));
 			break;
 		
 		case ACCESS_LOGGED_IN:
-			echo elgg_view('locks/green', array('href' 	=> $href));
+			echo elgg_view('icon/locks/green', array('href' 	=> $href));
 			break;
 					
 		case ACCESS_FRIENDS:
 		default:
-			echo elgg_view('locks/yellow', array('href' => $href));
+			echo elgg_view('icon/locks/yellow', array('href' => $href));
 			break;
 	}
 }

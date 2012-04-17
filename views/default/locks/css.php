@@ -15,3 +15,6 @@ $margin = $size / 2;
 	width:1.1em;
 	vertical-align: bottom;
 }
+.owner_block_lock{
+	float:right;
+}

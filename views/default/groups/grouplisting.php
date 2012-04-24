@@ -20,10 +20,10 @@
 		$membership = $group->membership;
 		if ($membership == ACCESS_PUBLIC) {
 			$lock_label = elgg_echo("groups:open");
-			$lock_icon = elgg_view('icon/locks/green');
+			$lock_icon = elgg_view('icon/locks/green', array('title' => elgg_echo('locks:group:open')));
 		} else {
 			$lock_label = elgg_echo("groups:closed");
-			$lock_icon = elgg_view('icon/locks/red');
+			$lock_icon = elgg_view('icon/locks/red', array('title' => elgg_echo('locks:group:closed')));
 		}
 		$info .= '<p>' . $lock_label . $lock_icon . '</p>';
 		

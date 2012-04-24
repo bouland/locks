@@ -22,11 +22,11 @@ if($entity)
 			break;
 		
 		case ACCESS_PUBLIC:
-			echo elgg_view('icon/locks/green', array('href' 	=> $href));
+			echo elgg_view('icon/locks/blue', array('href' 	=> $href));
 			break;
 		
 		case ACCESS_LOGGED_IN:
-			echo elgg_view('icon/locks/green', array('href' 	=> $href));
+			echo elgg_view('icon/locks/green', array('href' => $href));
 			break;
 					
 		case ACCESS_FRIENDS:

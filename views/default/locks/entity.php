@@ -30,6 +30,11 @@ if($entity)
 			break;
 					
 		case ACCESS_FRIENDS:
+			echo elgg_view('icon/locks/yellow', array(	'href' => $href,
+														'title' => sprintf(elgg_echo('locks:title'),elgg_echo('locks:alt:friends')),
+														'alt' 	=> elgg_echo('locks:alt:friends')
+														));
+			break;
 		default:
 			echo elgg_view('icon/locks/yellow', array('href' => $href));
 			break;
